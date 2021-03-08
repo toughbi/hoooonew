@@ -1,3 +1,9 @@
 # hoooonew
  演示
-nisidsncskdndcsdkn难道城市年代初后洪湖吼吼吼
+#include<iostream>
+using namespace std;
+int main(){
+    cout<<"hello the people"<<;
+    cout<<"hello the world"<<;
+    return 0;
+}
