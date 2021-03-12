@@ -1,0 +1,24 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+double hanshu(double);
+void main(void)
+{
+	double a,c;
+	cout<<"请输入x：";
+	cin>>a;
+	c=hanshu(a);
+	cout<<"y="<<c;
+	
+}
+double hanshu(double x)
+{
+	double y;
+	if(x>0)
+		y=pow(x,0.5);
+	if(x==0)
+		y=0;
+	if(x<0)
+		y=-x;
+	return y;
+}
